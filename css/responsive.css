@@ -17,13 +17,7 @@
     main .about_me .media img{
         width: 40%;
     }
-
-    main .characteristics .character{
-        margin: auto;
-        width: 60%;
-        margin-bottom: 20px;
-    }
-    
+     
     .project-description div p{
         display: block;
         text-align: center;
@@ -36,7 +30,6 @@
     header .title{
         font-size: 2em;
     }
-
 
     main{
         margin-top: 150px;
@@ -65,19 +58,10 @@
         width: 40px;
     }
 
-    main .characteristics{
-        margin-bottom: 150px;
-    }
-
-    main .characteristics .character{
-        width: 90%;
-    }
-
     main .projects {
         margin-bottom: 150px;
     }
-    
-
+  
     main .skills .skill{
         width: 40%;
     }

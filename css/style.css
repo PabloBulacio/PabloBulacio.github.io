@@ -145,14 +145,15 @@ main .projects .cont-projects{
     width: 85%;
     max-width: 1200px;
     margin: auto;
-    margin-bottom: 300px;
+    margin-bottom: 0px;
 }
 
 main .projects .description{
     font-weight: 300;
     color: #333;
     font-size: 1.1em;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+    margin-top: 0px;
 }
 
 main .projects .project{
@@ -168,6 +169,7 @@ main .projects .project{
         background: #F2784B;
         margin-top: 20px;
         padding: 15px;
+        
 }
 
 
