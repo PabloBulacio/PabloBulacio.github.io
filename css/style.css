@@ -1,0 +1,255 @@
+/* Estilos Generales */
+/* ================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+img{
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+}
+/* ================================== */
+
+/* HEADER */
+/* ================================== */
+
+body{
+    overflow-x: hidden;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 25vh 0;
+
+    background: url('../source/img/header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    animation: in ;
+    animation-iteration-count: initial;
+    animation-duration: 3s;
+}
+
+
+header .title{
+
+    width: 100%;
+    text-align: center;
+    font-size: 4.6em;
+    font-weight: 700;
+
+    padding: 15px 0;
+    color: #fff;
+    background: rgba(49,49,49,.9);
+}
+
+header figure{
+    text-align: center;
+    margin: 30px 0;
+}
+
+header figure img{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, .1)
+}
+
+header figure .phrase{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 100;
+    color: #fff;
+}
+
+header .valor{
+    text-align: center;
+    color: #313131;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+/* ================================== */
+
+/* Main */
+
+main{
+    width: 100%;
+    margin-top: 200px;
+}
+
+/* ===ABOUT ME */
+
+main .about_me{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: rgb(242,242,242);
+    padding: 40px 0;
+    margin-bottom: 200px;
+}
+
+main .about_me article{
+    width: 60%;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+main .about_me article b {
+    font-weight: 700;       
+}
+
+main .about_me .media{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main .about_me .media img{
+    width: 20%;
+    margin: 0px 20px;
+}
+
+
+/* ===Projects */
+
+main .projects{
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 300px;
+}
+
+main .projects .title{
+    font-size: 3em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+main .projects .cont-projects{
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 300px;
+}
+
+main .projects .description{
+    font-weight: 300;
+    color: #333;
+    font-size: 1.1em;
+    margin-bottom: 100px;
+}
+
+main .projects .project{
+    width: 100%;
+    padding: 20px;
+    background: rgb(235,235,235);
+    margin-bottom: 50px;
+    text-align: center;
+    color: #444;
+}
+  
+.project .repositories{
+        background: #F2784B;
+        margin-top: 20px;
+        padding: 15px;
+}
+
+
+
+/* ===Skills  */
+
+main .skills{
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main .skills .title{
+    width: 100%;
+    font-size: 3em;
+    color: #444;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 100px;    
+}
+
+main .skills .cont-skills{
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+    .skill{
+        width: 25%;
+        text-align: center;
+        margin: 0 10px ;
+        margin-bottom: 30px;
+        padding: 20px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .skill img{
+        width: 140px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .skill p{
+        width: 100%;
+        font-weight: 700;
+        text-align: center;
+    }
+/* ============================== */
+
+
+/* Footer */
+footer{
+    margin-top: 30px;
+    padding: 30px;
+    background: #222;
+}
+
+footer .contact {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+footer .title {
+    font-size: 5em;
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 30px;
+    text-align: center;
+}
